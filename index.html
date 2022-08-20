@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Starter</title>
+    <title>Registration Form</title>
     <meta charset="utf-8">
     <style>
         body{
@@ -58,8 +58,10 @@
     <p>Accurately fill in the spaces below</p>
 
     <main>
-        <form name="Reg Form" action="https://iliti2-regform.netlify.app/" method="post" netlify-honeypot="bot-field" netlify>
-            <label style="display:none;">Do not fill: <input name="bot-field" /></label>
+        <form name="Reg Form" action="https://iliti2-regform.netlify.app/" netlify-honeypot="bot-field" netlify>
+          <p style="display:none;>
+            <label>Do not fill: <input name="bot-field" /></label>
+                                                       </p>
           <fieldset>
             <label>Enter Your First Name: <input name="firstname" type="text" required /></label>
             <label>Enter Your Last Name: <input name="lastname" type="text" required /></label>
